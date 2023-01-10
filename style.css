@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    width: fit-content;
+    margin-inline: auto;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    min-height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-size: 2rem;
+}
+
+
+#password {
+    min-width: 200px;
+    margin: 10px auto;
+}
+
+.btn-div {
+    display: flex;
+    gap: 1em;
+
+}
